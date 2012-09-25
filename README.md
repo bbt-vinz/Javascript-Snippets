@@ -40,5 +40,24 @@ Here's how to grab variable(s) from browser url.
      var bio = $.getUrlVar('bio');
      (bio != undefined)?true:false;
 ```
-    
 
+### Hover Intent
+
+I recommend you refer to [their site] but I put the JS here for my personal use:
+
+[their site]: http://cherne.net/brian/resources/jquery.hoverIntent.html
+
+```js 
+   $('.menu-item').hoverIntent({
+            timeout: 180,
+            interval: 180,
+            over: function () {
+                $('.level-2').fadeOut(500);
+                $('.level-2',this).slideDown(500);
+            },
+            out: function () {
+                $('.level-2s',this).slideUp(200);
+
+            }
+   });
+```
