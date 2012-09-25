@@ -8,6 +8,8 @@ It will be updated regularly as I find anything useful.
 
 NOTE: Of course you would need [jQuery] installed before using any of these snippets. You might also need to install [Modernizr] for some of the snippets as well.
 
+OTHER NOTE: Some of these snippets are plugins/extensions from 'other' authors and I have included their copyright/disclaimer, info in the JS file.
+
 [jQuery]: http://www.jquery.com 
 [Modernizr]: http://www.modernizr.com 
 
@@ -25,3 +27,18 @@ Included snippets are listed below:
 * `even/odd menu`: ideal for tables. displays different color per table row. 
 * `tabs`: tabs made with one article menu.
 * `placeholder`: remember how IE doesn't have input placeholder? This will help you.
+
+## Implementation
+
+Most of the guidelines for some of these snippets have been included in the lib.js but I'll include it here as well.
+
+### URL Vars
+
+Here's how to grab variable(s) from browser url.
+
+```js 
+     var bio = $.getUrlVar('bio');
+     (bio != undefined)?true:false;
+```
+    
+
