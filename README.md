@@ -61,3 +61,13 @@ I recommend you refer to [their site] but I put the JS here for my personal use:
             }
    });
 ```
+
+### Tabs
+
+Below is the basic setup for tabs:
+
+```html
+  <section class="tabs">
+     <a href="[$href]" class="tab" id="tab-[$id]">[$title]</a>
+  </section>
+```
